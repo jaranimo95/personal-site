@@ -7,13 +7,13 @@ class Home extends Component {
             <div style={{width:'100%',margin:'auto'}}>
                 <Grid className="home-grid">
                     <Cell col={12}>
-                        <a href="https://github.com/jaranimo95">
-                            <img 
-                                src="https://f4.bcbits.com/img/0009565306_20.jpg"
-                                alt="Rain Cloud"
-                                className="home-img"
-                            />
-                        </a>
+                        
+                        <img 
+                            src="https://f4.bcbits.com/img/0009565306_20.jpg"
+                            alt="GitHub"
+                            className="home-img"
+                        />
+
                         <div className="banner-text">
                             <h1>Christian Jarani, Computer Science B.S.</h1>
                             <hr/>
