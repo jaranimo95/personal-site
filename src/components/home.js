@@ -17,7 +17,7 @@ class Home extends Component {
                         <div className="banner-text">
                             <h1>Christian Jarani, Computer Science B.S.</h1>
                             <hr/>
-                            <p>HTML/CSS | Angular | React | Javascript/Typescript</p>
+                            <p>Email: <a href="mailto:christian.jarani@gmail.com">christian.jarani@gmail.com</a> | Phone: (610) 757-5583 </p>
                             <div className="social-links">
 
                                 <a href="https://www.linkedin.com/in/cjarani/" target="_blank" rel="noopener noreferrer">

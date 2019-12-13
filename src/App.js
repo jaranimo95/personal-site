@@ -11,21 +11,11 @@ function App() {
     <Layout>
         <Header className="header-color" title="" scroll>
             <Navigation>
-                <Link to="/home">Home</Link>
-                <Link to="/aboutme">About Me</Link>
+                <Link to="/">Home</Link>
                 <Link to="/projects">Projects</Link>
-                <Link to="/resume">Resume</Link>
-                <Link to="/contact">Contact</Link>
+                <a href="https://jaranimo95.github.io/resume/">Resume</a>
             </Navigation>
         </Header>
-        <Drawer title="Menu">
-            <Navigation>
-                <Link to="/aboutme">About Me</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/resume">Resume</Link>
-                <Link to="/contact">Contact</Link>
-            </Navigation>
-        </Drawer>
         <Content>
             <div className="page-content" />
             <Main/>
